@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>V-Gallery</title>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-svg-extruder@1.0.0/dist/index.min.js"></script>
+</head>
+<body>
+<a-scene>
+    <a-asset-item id="walls" src="assets/walls.svg"></a-asset-item>
+    <a-asset-item id="pic_forest" src="assets/rainy_forest.svg"></a-asset-item>
+    <a-asset-item id="pic_strawberry" src="assets/strawberry_liquide.svg"></a-asset-item>
+    <a-box position="-2 0.5 -4" depth="2" height="4" width="0.05" rotation="0 0 0" color="#FFFFFF"></a-box>
+    <a-box position="2 0.5 -4" depth="2" height="4" width="0.05" rotation="0 0 0" color="#FFFFFF"></a-box>
+    <a-box position="0 0.5 -5" depth="4" height="6" width="0.05" rotation="90 0 90" color="#FFFFFF"></a-box>
+    <a-plane position="0 0.5 -3" rotation="-90 0 0" width="8" height="4" color="#7BC8A4"></a-plane>
+    <a-sky color="blue"></a-sky>
+</a-scene>
+</body>
+</html>
