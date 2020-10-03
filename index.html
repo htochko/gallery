@@ -19,19 +19,21 @@
     <a-camera wasd-controls-enabled="true" position="0 1 0" look-controls>
         <a-text position="-0.9 0.8 -1" value="Welcome Gallery" line-height="0.1" width="2" color="#333"></a-text>
     </a-camera>
+    <a-entity light="type:directional; castShadow:true;" position="1 4 1"></a-entity>
+    <a-tetrahedron shadow="receive:true" position="1 2 -4" radius="0.2" color="green"></a-tetrahedron>
     <a-image src="#red_forest" position="1.8 1.5 -3.9" rotation="0 90 0" ></a-image>
     <a-image src="#pic_forest" position="-1.9 1.5 -4" rotation="0 90 0"></a-image>
     <a-image src="#pic_gazing" position="0 1.5 -4.9" rotation="0 0 0"></a-image>
-    <a-box position="-2 0.5 -4" depth="2" height="4" width="0.05" rotation="0 0 0" color="#FFFFFF"></a-box>
-    <a-box position="2 0.5 -4" depth="2" height="4" width="0.05" rotation="0 0 0" color="#FFFFFF"></a-box>
-    <a-box position="0 0.5 -5" depth="4" height="6" width="0.05" rotation="90 0 90" color="#FFFFFF"></a-box>
+    <a-box shadow="receive:true" position="-2 0.5 -4" depth="2" height="4" width="0.05" rotation="0 0 0" color="#FFFFFF"></a-box>
+    <a-box shadow="receive:true" position="2 0.5 -4" depth="2" height="4" width="0.05" rotation="0 0 0" color="#FFFFFF"></a-box>
+    <a-box shadow="receive:true" position="0 0.5 -5" depth="4" height="6" width="0.05" rotation="90 0 90" color="#FFFFFF"></a-box>
 
-    <a-box position="3 0.5 -5" depth="4" height="6" width="0.05" rotation="90 0 90" color="#FFFFFF"></a-box>
-    <a-box position="-3 0.5 -5" depth="4" height="6" width="0.05" rotation="90 0 90" color="#FFFFFF"></a-box>
+    <a-box shadow="receive:true" position="3 0.5 -5" depth="4" height="6" width="0.05" rotation="90 0 90" color="#FFFFFF"></a-box>
+    <a-box shadow="receive:true" position="-3 0.5 -5" depth="4" height="6" width="0.05" rotation="90 0 90" color="#FFFFFF"></a-box>
 
-    <a-box position="-6 0.5 -4" depth="2" height="4" width="0.05" rotation="0 0 0" color="#FFffFF"></a-box>
-    <a-box position="6 0.5 -4" depth="2" height="4" width="0.05" rotation="0 0 0" color="#FFFFff"></a-box>
-    <a-plane position="0 0.5 -3" rotation="-90 0 0" width="12" height="4" color="#cccccc"></a-plane>
+    <a-box shadow="receive:true" position="-6 0.5 -4" depth="2" height="4" width="0.05" rotation="0 0 0" color="#FFffFF"></a-box>
+    <a-box shadow="receive:true" position="6 0.5 -4" depth="2" height="4" width="0.05" rotation="0 0 0" color="#FFFFff"></a-box>
+    <a-plane shadow="receive:true" position="0 0.5 -3" rotation="-90 0 0" width="12" height="4" color="#cccccc"></a-plane>
     <a-sky color="blue"></a-sky>
 </a-scene>
 </body>
