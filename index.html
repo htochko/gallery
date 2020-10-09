@@ -21,6 +21,8 @@
     <a-asset-item id="pic_cabbage" src="assets/cabbage.svg"></a-asset-item>
     <a-asset-item id="pic_landscape" src="assets/landscape.svg"></a-asset-item>
 
+    <a-asset-item id="elephant" src="assets/elephant.png"></a-asset-item>
+
     <a-camera wasd-controls-enabled="true"
               position="0 3.6 0"
               look-controls
@@ -73,6 +75,10 @@
 
     <a-plane shadow="receive:true" position="0 0.5 -3" rotation="-90 0 0" width="12" height="4" color="#cccccc"></a-plane>
     <a-sphere position="0 0 0" radius="0.5" color="#EF2D5E"></a-sphere>
+
+    <a-image src="#elephant" position="-9 2 0" rotation="180 0 180"
+             animation="property: position; to: 9 2 0; easing: linear; loop: true; dur: 100000">
+    </a-image>
     <a-sky color="blue"></a-sky>
 </a-scene>
 </body>
