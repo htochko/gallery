@@ -1,0 +1,20 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="js" />
+    <inspection_tool class="MessDetectorValidationInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false">
+      <option name="customRulesets">
+        <list>
+          <RulesetDescriptor>
+            <option name="name" value="BD Multimedia ruleset" />
+            <option name="path" value="$PROJECT_DIR$/../sites/paym/Phpmd.xml" />
+          </RulesetDescriptor>
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PhpCSValidationInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="SHOW_SNIFF_NAMES" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PhpIllegalPsrClassPathInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PhpMultipleClassesDeclarationsInOneFile" enabled="true" level="WARNING" enabled_by_default="true" />
+  </profile>
+</component>
