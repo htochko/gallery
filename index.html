@@ -75,7 +75,8 @@
     <a-box shadow="receive:true" position="6 0.5 -4" depth="2" height="6" width="0.05" rotation="0 0 0" color="#FFFFff"></a-box>
 
     <a-plane shadow="receive:true" position="0 0.5 -3" rotation="-90 0 0" width="12" height="4" color="#cccccc"></a-plane>
-    <a-sphere position="0 0 0" radius="0.5" color="#EF2D5E"></a-sphere>
+    <a-sphere position="0 0 0" radius="0.5"
+              material="color: #EF2D5E; roughness: 0.1; metalness: 1;"></a-sphere>
 
     <a-image src="#elephant" position="-9 2 0" rotation="180 0 180"
              animation="property: position; to: 9 2 0; easing: linear; loop: true; dur: 100000">
@@ -83,7 +84,8 @@
 
 
     <a-curvedimage  position="-3 1.5 -3.5"
-                    src="#visitor" height="1.86" radius="0.6" theta-length="78"
+                    src="#visitor" height="1.86"
+                    radius="0.6" theta-length="78"
                     rotation="0 0 0"></a-curvedimage>
     <a-sky color="blue"></a-sky>
 </a-scene>
