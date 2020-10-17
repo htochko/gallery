@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fabric of future</title>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-svg-extruder@1.0.0/dist/index.min.js"></script>
+</head>
+<body>
+<a-scene>
+    <a-asset-item id="site_plan" src="assets/mpzp551.png"></a-asset-item>
+    <a-camera wasd-controls-enabled="true"
+              position="0 3.6 0"
+              look-controls
+              cursor-visible="true"
+              cursor-scale="2"
+              cursor-color="#0095DD"
+              cursor-opacity="0.5">
+        >
+        <a-text position="-0.9 0.8 -1" value="Welcome Gallery" line-height="0.1" width="2" color="#333"></a-text>
+    </a-camera>
+ <a-sky color="#d2f2fc"></a-sky>
+    <a-plane shadow="receive:true"
+             position="0 0.5 -3"
+             rotation="-90 0 0"
+             width="148.5" height="210"
+             src="#site_plan"></a-plane>
+</a-scene>
+</body>
+</html>
